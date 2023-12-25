@@ -1,0 +1,58 @@
+/* Стилі для кнопок */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Зелений колір */
+    color: #fff; /* Білий колір тексту */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Темнозелений колір при наведенні */
+}
+
+/* Стилі для тексту */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Темний колір тексту */
+}
+
+h1, h2, h3 {
+    color: #444; /* Темний колір заголовків */
+}
+
+/* Загальні стилі для контейнера */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Приклад використання класу для тексту червоного кольору */
+.error-text {
+    color: #ff0000; /* Червоний колір тексту */
+}
+
+/* Загальні стилі для посилань */
+a {
+    color: #007BFF; /* Колір посилань (синій) */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Лінія під посиланням при наведенні */
+}
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logout {
+    color: #b7625c;
+}
